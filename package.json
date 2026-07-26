@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-banking-regulations",
+  "version": "0.1.0",
+  "description": "Banking Regulations MCP — US banking & consumer-finance rules (12 CFR).",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "banking-regulations"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-banking-regulations"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

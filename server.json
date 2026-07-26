@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/banking-regulations",
+  "title": "Banking Regulations",
+  "description": "Banking Regulations MCP — US banking & consumer-finance rules (12 CFR).",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/banking-regulations",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-banking-regulations",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/banking-regulations/mcp"
+    }
+  ]
+}
